@@ -5,7 +5,7 @@ public class Main {
         // java Program "assiette" "couscous" "coca" "moyen" "baba" "normal" "yes"
         // Note: Make sure the class name matches the file name when compiling and running in Java.
         App app = new App();
-        int price = app.Compute("assiette", "couscous", "coca", "moyen", "baba", "normal", "yes");
+        int price = app.Compute("assiette", "couscous", "coca", "moyen", "baba", "normal", "no");
         System.out.println("Prix à payer : " + price + "€");
     }
 }

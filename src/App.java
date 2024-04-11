@@ -14,13 +14,13 @@ public class App {
 
         // si le client prends un plat en assiette
         total = getTotal(type, size, dsize, total);
-        total = hasCoffePromo(type, size, dsize, coffee, total);
+        total = getCoffePromo(type, size, dsize, coffee, total);
         return total;
     }
 
 
 
-    private int hasCoffePromo(String type, String size, String dsize, String coffee, int total) {
+    private int getCoffePromo(String type, String size, String dsize, String coffee, int total) {
         if (!coffee.equals("yes")) {
             total += 1;
         }
