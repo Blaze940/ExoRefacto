@@ -6,6 +6,6 @@ public class Main {
         // Note: Make sure the class name matches the file name when compiling and running in Java.
         MealApp mealApp = new MealApp();
         int price = mealApp.Compute("assiette", "couscous", "moyen", "normal", "yes");
-        System.out.println("Prix à payer : " + price + "€");
+        System.out.println("\nPrix à payer : " + price + "€");
     }
 }

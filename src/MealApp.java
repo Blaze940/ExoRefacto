@@ -120,7 +120,7 @@ public class MealApp {
             total += 1;
         }
         if (type.equals(FormuleType.ASSIETTE.getValue()) && size.equals(SizeType.MOYEN.getValue()) && dsize.equals("normal") && coffee.equals("yes")) {
-            System.out.print(" avec café offert!");
+            System.out.print("avec café offert!");
         }
         return total;
     }
