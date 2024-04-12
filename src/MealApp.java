@@ -1,4 +1,7 @@
-public class App {
+import enums.FormuleType;
+import enums.SizeType;
+
+public class MealApp {
 
     // calcule le prix payé par l'utilisateur dans le restaurant, en fonction de type de
     // repas qu'il prend (assiette ou sandwich), de la taille de la boisson (petit, moyen, grand), du dessert et

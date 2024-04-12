@@ -1,11 +1,12 @@
-public enum SizeType {
-    PETIT("petit"),
-    MOYEN("moyen"),
-    GRAND("grand");
+package enums;
+
+public enum FormuleType {
+    ASSIETTE("assiette"),
+    SANDWICH("sandwich");
 
     private final String value;
 
-    SizeType(String value) {
+    FormuleType(String value) {
         this.value = value;
     }
 
